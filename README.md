@@ -1,4 +1,4 @@
-# No Brand Girls - Sales Program
+# No Brand Girls - Sales Software
 
 This software is being developed to aid the Love Live cover group, No Brand Girls with their sales control. No Brand Girls are brazilian and do activities such as cosplaying and dancing.
 
