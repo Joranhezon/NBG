@@ -19,4 +19,4 @@ The style sheet used for this project is the one provided by [StyleCop](https://
 
 # License
 
-To do.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Joranhezon/NBG/blob/issue_1_requirements/LICENSE) file for details
