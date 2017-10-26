@@ -7,11 +7,13 @@ Instagram Link: https://www.instagram.com/nbg_cover/
 
 # Built With
 
-* [Microsoft Visual Studio](https://www.visualstudio.com/pt-br/?rr=https%3A%2F%2Fwww.google.com.br%2F)
+* [Atom](https://atom.io/)
+* [Electron](https://electron.atom.io/)
+* [Angular](https://angular.io/)
 
 # Coding Style Sheet
 
-The style sheet used for this project is the one provided by [StyleCop](https://stylecop.codeplex.com). To use it, simply install it as a plugin in Microsoft Visual Studio.
+The style sheet used for this project is the one provided by [Eslint](https://eslint.org/).
 
 # Authors
 
