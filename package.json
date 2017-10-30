@@ -35,6 +35,7 @@
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
     "electron": "^1.7.9",
+    "electron-mocha": "^4.0.3",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
     "karma": "~1.4.1",
