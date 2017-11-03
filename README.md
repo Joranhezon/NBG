@@ -10,6 +10,7 @@ Instagram Link: https://www.instagram.com/nbg_cover/
 * [Atom](https://atom.io/)
 * [Electron](https://electron.atom.io/)
 * [Angular](https://angular.io/)
+* [PouchDB](https://pouchdb.com/)
 
 # Coding Style Sheet
 

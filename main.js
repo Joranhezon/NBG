@@ -1,10 +1,14 @@
 const {app, BrowserWindow} = require('electron');
 const path = require('path');
 const url = require('url');
+const PouchDB = require('pouchdb');
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win;
+
+//Setting up database
+var db = new PouchDB('NBG-vendas');
 
 function createWindow () {
   // Create the browser window.
@@ -12,7 +16,7 @@ function createWindow () {
     width: 800,
     height: 800
   });
-
+  
   // and load the index.html of the app.
   win.loadURL(`file://${__dirname}/dist/index.html`);
 
