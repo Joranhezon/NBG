@@ -13,10 +13,11 @@ var db = new PouchDB('NBG-vendas');
 function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 800,
-    height: 800
+    width: 510,
+    height: 400,
+    icon: path.join(__dirname, 'src/assets/icons/NBG_Muse_Logo.jpg')
   });
-  
+
   // and load the index.html of the app.
   win.loadURL(`file://${__dirname}/dist/index.html`);
 
