@@ -1,0 +1,25 @@
+/* Global css variables used in the project as a whole */
+
+/* Color used on backgrounds and buttons of the muse theme */
+.dark-muse-default{
+  background-color: #E1658C;
+  color: white;
+};
+
+/* Color used on containers of the muse theme */
+.muse-default{
+  background-color: #E781A0;
+  color: white;
+};
+
+/* Color used on backgrounds and buttons of the aqours theme */
+.dark-aqours-default{
+  background-color: #73BFEB;
+  color: white;
+};
+
+/* Color used on containers of the aqours theme */
+.aqours-default{
+  background-color: #97CDEF;
+  color: white;
+}
