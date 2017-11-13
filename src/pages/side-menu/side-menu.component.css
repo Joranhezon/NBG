@@ -11,15 +11,21 @@
   height: 27px;
   width: 174px;
   border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.tema-radio-button{
+  position: relative;
+  top: 2px;
 }
 
 /* Id used for the container of the default menu */
 #default-menu{
   border-radius: 10px;
   border: 5px solid black;
-  padding-bottom: 31px;
+  padding-bottom: 10px;
   position: relative;
-  bottom: -7px;
+  bottom: -3px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -41,4 +47,16 @@
   display: inline-grid;
   position: relative;
   left: 20px;
+}
+
+/* Id used on temas label */
+#temas-form{
+  color: white;
+  border: 2px solid black;
+  font-family: Verdana;
+  font-size: 11pt;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 4px;
 }
