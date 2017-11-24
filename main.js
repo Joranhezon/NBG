@@ -16,7 +16,7 @@ function createWindow () {
     width: 550,
     height: 400,
     title: "No Brand Girls",
-    icon: path.join(__dirname, 'src/assets/icons/NBG_Muse_Logo.jpg')
+    icon: path.join(__dirname, 'src/assets/icons/NBG_muse_Logo.jpg')
   });
 
   // and load the index.html of the app.
