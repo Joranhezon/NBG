@@ -19,9 +19,9 @@
     <!-- Used to choose between muse and aqours themes -->
     <form class="dark-muse-default" id="temas-form">
       <label>Temas</label>
-      <input type="radio" value="μ's" name="theme" class="tema-radio-button">
+      <input type="radio" value="μ's" name="theme" (click)="setMuseTheme()" class="tema-radio-button">
       <label>μ's</label>
-      <input type="radio" value="Aqours" name="theme" class="tema-radio-button">
+      <input type="radio" value="Aqours" name="theme"(click)="setAqoursTheme()" class="tema-radio-button">
       <label>Aqours</label>
     </form>
   </div>
