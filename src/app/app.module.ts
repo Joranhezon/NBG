@@ -7,12 +7,12 @@ import { routes } from './app.router';
 import { AppComponent } from './app.component';
 
 /* Custom Components used on app */
-import { SideMenuComponent } from '../pages/side-menu/side-menu.component';
+import { ProductComponent } from '../pages/product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SideMenuComponent
+    ProductComponent
   ],
   imports: [
     BrowserModule,
