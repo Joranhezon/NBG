@@ -19,6 +19,16 @@
   top: 2px;
 }
 
+/* Id used to create a vertical line */
+#vertical-line{
+  width: 344px;
+  border-bottom: 2px solid black;
+  transform: rotate(90deg);
+  position: relative;
+  top: 163px;
+  right: 460px;
+}
+
 /* Id used for the container of the default menu */
 #default-menu{
   display: inline-grid;
@@ -36,9 +46,9 @@
 /* Id used for the container of the image */
 #nbg-logo-id{
   display: inline-grid;
-  width: 22%;
+  width: 13.5%;
   height: 78%;
-  margin:23px 20px 19px 17px;
+  margin:-6px 20px 19px 11px;
 }
 
 /* Id used for the logo of the default image */
@@ -47,20 +57,12 @@
   border: 2px solid black;
 }
 
-/* Id used to create a horizontal line */
-#horizontal-line{
-  position: relative;
-  bottom: 9px;
-  border-top: 2px solid black;
-  width: 40.5%;
-}
-
 /* Id used on the default side menu */
 #side-menu{
   width: 10%;
   display: inline-grid;
   position: relative;
-  left: 20px;
+  left: 15px;
 }
 
 /* Id used on temas label */
@@ -73,17 +75,4 @@
   text-align: center;
   border-radius: 4px;
   margin-bottom: 4px;
-}
-
-/* Id used to create a vertical line */
-#vertical-line{
-  transform: rotate(90deg);
-  width: 74%;
-  right: 49px;
-  bottom: 169px;
-  border-bottom: 2px solid black;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
