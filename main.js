@@ -13,8 +13,9 @@ var db = new PouchDB('NBG-vendas');
 function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 510,
+    width: 550,
     height: 400,
+    title: "No Brand Girls",
     icon: path.join(__dirname, 'src/assets/icons/NBG_Muse_Logo.jpg')
   });
 

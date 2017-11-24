@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global css variables used in the project as a whole */
+
+/* Color used on backgrounds and buttons of the muse theme */
+.dark-muse-default{
+  background-color: #E1658C;
+};
+
+/* Color used on containers of the muse theme */
+.muse-default{
+  background-color: #E781A0;
+};
+
+/* Color used on backgrounds and buttons of the aqours theme */
+.dark-aqours-default{
+  background-color: #73BFEB;
+};
+
+/* Color used on containers of the aqours theme */
+.aqours-default{
+  background-color: #97CDEF;
+}

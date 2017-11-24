@@ -1,0 +1,78 @@
+@import '../../styles.css';
+
+/* Class used in all buttons of the side menu */
+.side-menu-button{
+  color: white;
+  border: 2px solid black;
+  font-family: Verdana;
+  font-size: 11.0pt;
+  font-weight: 400;
+  text-align: center;
+  height: 27px;
+  width: 174px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.tema-radio-button{
+  position: relative;
+  top: 2px;
+}
+
+/* Id used to create a vertical line */
+#vertical-line{
+  width: 344px;
+  border-bottom: 2px solid black;
+  transform: rotate(90deg);
+  position: relative;
+  top: 163px;
+  right: 460px;
+}
+
+/* Id used for the container of the default menu */
+#default-menu{
+  display: inline-grid;
+  width: 100%;
+  border-radius: 10px;
+  border: 5px solid black;
+  padding-bottom: 10px;
+  position: relative;
+  bottom: -3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Id used for the container of the image */
+#nbg-logo-id{
+  display: inline-grid;
+  width: 13.5%;
+  height: 78%;
+  margin:-6px 20px 19px 11px;
+}
+
+/* Id used for the logo of the default image */
+#nbg-logo{
+  height: 178px;
+  border: 2px solid black;
+}
+
+/* Id used on the default side menu */
+#side-menu{
+  width: 10%;
+  display: inline-grid;
+  position: relative;
+  left: 15px;
+}
+
+/* Id used on temas label */
+#temas-form{
+  color: white;
+  border: 2px solid black;
+  font-family: Verdana;
+  font-size: 11pt;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
