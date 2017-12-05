@@ -76,3 +76,8 @@
   border-radius: 4px;
   margin-bottom: 4px;
 }
+
+/* Id used to place component contents in an specific place */
+#content-placer {
+  max-width: 300px;
+}

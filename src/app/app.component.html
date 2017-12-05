@@ -12,7 +12,7 @@
   <!-- Contains the side menu -->
   <div class="{{this.currentTheme.theme}}-default" id="side-menu">
     <button class="dark-{{this.currentTheme.theme}}-default side-menu-button" type="button">Vendas</button>
-    <button class="dark-{{this.currentTheme.theme}}-default side-menu-button" type="button">Produtos</button>
+    <button class="dark-{{this.currentTheme.theme}}-default side-menu-button" type="button" routerLink="/home">Produtos</button>
     <button class="dark-{{this.currentTheme.theme}}-default side-menu-button" type="button">Gráficos de Vendas</button>
 
     <!-- Used to choose between muse and aqours themes -->
@@ -24,5 +24,7 @@
       <label>Aqours</label>
     </form>
   </div>
-  <router-outlet></router-outlet>
+  <div id="content-placer">
+    <router-outlet></router-outlet>
+  </div>
 </div>
